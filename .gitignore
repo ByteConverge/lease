@@ -1,0 +1,31 @@
+# Dependencies - you don't need to upload these, Render will install them itself
+node_modules/
+npm-debug.log*
+
+# Environment variables - this is where your secrets like API keys live!
+.env
+.env.local
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
