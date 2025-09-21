@@ -1,6 +1,6 @@
 const express = require('express');
 const User = require('../models/User');
-const Land = require('../models/land');
+const Land = require('../models/Land');
 const Equipment = require('../models/Equipment');
 const { auth, authorizeAdmin } = require('../middleware/auth');
 
