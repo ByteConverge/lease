@@ -1,4 +1,4 @@
-const Land = require('../models/Land.js');
+const Land = require('../models/land.js');
 const { cloudinary } = require('../config/cloudinary');
 
 // Get all lands with filtering
